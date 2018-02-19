@@ -3,10 +3,9 @@
   <div class="row">
     <div class="col s8">
       <ul class="collection">
-        <li class="collection-item"><b>Location: </b>{{attorney.location}}</li>
         <li class="collection-item"><b>Phone: </b>{{attorney.phone}}</li>
         <li class="collection-item"><b>Fax: </b>{{attorney.fax}}</li>
-        <li class="collection-item"><b>Email: </b>{{attorney.email}}</li>
+        <li class="collection-item"><b>Email: </b><a [href]="'mailto:' + attorney.email">{{attorney.email}}</a></li>
       </ul>
       <p *ngFor="let b of attorney.bio">{{b}}</p>
       <ul class="collection">

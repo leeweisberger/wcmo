@@ -9,9 +9,10 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico",
+        "favicon.png",
         "images",
-        "files"
+        "files",
+        "CNAME"
       ],
       "index": "index.html",
       "main": "main.ts",

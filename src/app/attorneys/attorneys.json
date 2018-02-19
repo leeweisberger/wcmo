@@ -1,0 +1,407 @@
+[{
+    "name": "Steven A. Weisberger",
+    "title": "member",
+    "picture": "weisberger.jpg",
+    "areas": [
+      "Tax and Estate Planning",
+      "Estate Administration"
+    ],
+    "email": "sweisberger@wcmolaw.com",
+    "phone": "973-694-0800 (Ext. 310)",
+    "fax": "973-694-0302",
+    "location": "Wayne, New Jersey",
+    "yearJoined": "1989",
+    "litigation": "10% of Practice Devoted to Litigation",
+    "bar": "New Jersey, 1979",
+    "education": [{
+        "school": "New York University School of Law, New York, New York",
+        "degree": "LL.M.Tax,MasterofLaw(s)inTaxation-1985"
+      },
+      {
+        "school": "Yeshiva University Benjamin N. Cardozo School of Law, New York, New York",
+        "degree": "J.D., Doctor of Jurisprudence - 1979"
+      },
+      {
+        "school": "Hofstra University, Hempstead, New York",
+        "degree": "B.B.A., Bachelor of Business Administration - 1976"
+      }
+    ],
+    "memberships": [
+      "New Jersey State Bar Association, Taxation, Real Property, Probate and Trust Law Sections, Member",
+      "American Bar Association, Taxation, Real Property, Probate and Trust Law Sections, Member"
+    ],
+    "past": [
+      "Coopers & Lybrand, Associate, 1980 - 1984",
+      "Jerome A. Deener, Hackensack, New Jersey, Tax Associate, 1985 - 1987",
+      "Sills, Cummis, Zuckerman, Radin, Tischman, Epstein & Gross, Newark, New Jersey, Tax Associate, 1987 - 1989"
+    ],
+    "bio": [
+      "Mr. Weisberger joined Williams, Caliri, Miller & Otley, P.C. in 1989 as an Associate and became a Shareholder of the firm in 1993. His practice emphasizes estate planning, probate, estate and trust administration, and estate, gift and income tax planning. Mr. Weisberger is a frequent lecturer on various estate and trust, business and tax planning matters.",
+      "Prior to joining the firm, Mr. Weisberger was with Coopers & Lybrand as an associate (1980-1984), where his practice included gift, estate, and corporate and tax planning. From 1985-1987 he was with the estate and tax planning law firm of Jerome A. Deener, P.C., Hackensack, New Jersey, as a tax Associate, and from 1987-1989 he was a tax attorney with Sills, Cummis, Zuckerman, Radin, Tischman, Epstein & Gross, Newark, New Jersey."
+    ]
+  },
+  {
+    "name": "Peter B. Eddy",
+    "title": "member",
+    "picture": "eddy.jpg",
+    "areas": [
+      "Commercial Real Estate",
+      "Banking (Loan Structure and Closings)",
+      "Leasing",
+      "Real Estate Finance",
+      "Real Estate Development, Planning, and Zoning"
+    ],
+    "email": "peddy@wcmolaw.com",
+    "phone": "973-694-0800",
+    "fax": "973-694-0302",
+    "location": "Wayne, New Jersey",
+    "yearJoined": "1969",
+    "litigation": "10% of Practice Devoted to Litigation",
+    "bar": "New Jersey, 1966",
+    "education": [{
+        "school": "Rutgers, The State University of New Jersey School of Law - Newark, Newark, New Jersey",
+        "degree": "LL.B., Bachelor of Law - 1965"
+      },
+      {
+        "school": "Colgate University, Hamilton, New York",
+        "degree": "A.B., Bachelor of Arts - 1962"
+      }
+    ],
+    "memberships": [
+      "New Jersey State Bar Association, Real Property, Probate and Trust",
+      "American Bar Association, Member"
+    ],
+    "past": [
+      "Hon. Scott M. Long, Jr., Superior Court of New Jersey, Judicial Clerk, 1965 - 1966"
+    ],
+    "bio": ["PETER B. EDDY, joined Williams, Caliri, Miller & Otley, P.C. in 1969 and became a Shareholder in 1970. His areas of concentration are in commercial real estate, banking (loan structure and closings), leasing, real estate finance, real estate development, planning, and zoning."]
+  },
+  {
+    "name": "Richard S. Miller",
+    "title": "member",
+    "picture": "miller.jpg",
+    "areas": [
+      "Financial Regulation"
+    ],
+    "email": "rsmiller@wcmolaw.com",
+    "phone": "973-694-0800",
+    "fax": "973-694-0302",
+    "location": "Wayne, New Jersey",
+    "yearJoined": "1959",
+    "bar": "New Jersey, 1959",
+    "education": [{
+        "school": "Rutgers, The State University of New Jersey School of Law - Newark, Newark, New Jersey",
+        "degree": "LL.B., Bachelor of Law - 1958"
+      },
+      {
+        "school": "Rutgers, The State University of New Jersey School of Law - Newark, Newark, New Jersey",
+        "degree": "Law Review: Rutgers Law Review, Editor-in-Chief, 1957 - 1958"
+      },
+      {
+        "school": "Rutgers The State University of New Jersey, New Brunswick, New Jersey",
+        "degree": "A.B., Bachelor of Arts - 1955"
+      }
+    ],
+    "memberships": [
+      "Passaic County Bar Association, Member",
+      "New Jersey State Bar Association, Banking Law Section, Chairman, 1977 - 1978",
+      "American Bar Association, Trustee, 1987 - 1992",
+      "New Jersey Lawyers Fund for Client Protection, Trustee and Chairman, 1992",
+      "New Jersey Ethics Financial Committee, Member and Former Vice-Chairman, 1989 - 1992",
+      "New Jersey Bankers Association Bank Lawyers Counsel, Member",
+      "Ramapo Bank and Ramapo Financial Corporation, Director, 1974 - 1999",
+      "Valley National Bank, Director, 1999 - 2014"
+    ],
+    "past": [
+      "Justice Haydn Proctor, New Jersey Supreme Court, Law Clerk, 1958 - 1959",
+      "United States Air Force Judge Advocate Corps, Captain, 1959 - 1962"
+    ],
+    "bio": [
+      "RICHARD S. MILLER, was a Captain in the United States Air Force Judge Advocate Corps from 1959-1962. In 1962, he became a partner in Gardner and Williams, predecessor to Williams, Caliri, Miller & Otley, P.C.",
+      "For over 40 years, Mr. Miller's practice has been focused on the area of business and financial institutions from a regulatory standpoint."
+    ]
+  },
+  {
+    "name": "Judith E. Accardi",
+    "title": "associate",
+    "picture": "accardi.jpg",
+    "areas": [
+      "Real Estate",
+      "Guardianships",
+      "Wills and Estates",
+      "Landlord/Tenant"
+    ],
+    "email": "jeaccardi@wcmolaw.com",
+    "phone": "973-694-0800",
+    "fax": "973-694-0302",
+    "location": "Wayne, New Jersey",
+    "yearJoined": "2011",
+    "bar": "New Jersey, 1999/New York, 1999",
+    "education": [{
+        "school": "Pace University School of Law, White Plains, New York",
+        "degree": "J.D. - 1998 With Honors"
+      },
+      {
+        "school": "Montclair State University, Montclair, New Jersey",
+        "degree": "B.A. - 1988"
+      }
+    ],
+    "memberships": [
+      "Passaic County Bar Association, Member",
+      "New Jersey Bar Association, Member"
+    ],
+    "bio": [
+      "JUDITH E. ACCARDI is a graduate of Montclair State University (B.A. cum laude) nd Pace University School of Law (J.D. cum laude). She is admitted to the New Jersey Bar, and the New York Bar.",
+      "Ms.Accardi’s practice includes real estate (residential and commercial), guardianships, wills, estates, landlord/tenant and general litigation.",
+      "Ms. Accardi is the Municipal Judge for a Passaic County municipality, is a Foreclosure Mediator, and a prior member of the District XI Ethics Committee. She is a former Municipal Public Defender and Municipal Prosecutor.",
+      "Ms. Accardi joined Williams, Caliri, Miller & Otley, P.C. in 2011 as a Senior Associate."
+    ]
+  },
+  {
+    "name": "Angela J. Mendelsohn",
+    "title": "associate",
+    "picture": "mendelsohn.jpg",
+    "areas": [
+      "Commercial Real Estate Closings",
+      "Commercial Foreclosures and Creditor Bankruptcy",
+      "Title Claim Work"
+    ],
+    "email": "amendelsohn@wcmolaw.com",
+    "phone": "973-694-0800",
+    "fax": "973-694-0302",
+    "location": "Wayne, New Jersey",
+    "yearJoined": "2001",
+    "bar": "New Jersey, 1986/U.S. Federal Court, 1986/U.S. Court of Appeals 3rd Circuit, 1997",
+    "education": [{
+        "school": "University of Tennessee College of Law, Knoxville, Tennessee",
+        "degree": "J.D. - 1985"
+      },
+      {
+        "school": "Rutgers University",
+        "degree": "B.A. magna cum laude - 1980"
+      }
+    ],
+    "memberships": [
+      "American Bar Association, Member",
+      "New Jersey Bar Association, Member",
+      "Passaic County Bar Association, Member"
+    ],
+    "bio": [
+      "ANGELA J. MENDELSOHN's practice includes commercial real estate closings, residential and commercial foreclosures and creditor bankruptcy, as well as title claim work and business matters."
+    ]
+  },
+  {
+    "name": "Betsy Ann Rosenbloom",
+    "title": "associate",
+    "picture": "rosenbloom.jpg",
+    "areas": [
+      "Real Property Title Litigation",
+      "Representation of Secured Creditors in the Foreclosure of Mortgages on Real Property",
+      "Enforcement of Personal Property Liens",
+      "Judgment Collection",
+      "Condemnation and Bankruptcy"
+    ],
+    "email": "brosenbloom@wcmolaw.com",
+    "phone": "973-694-0800",
+    "fax": "973-694-0302",
+    "location": "Wayne, New Jersey",
+    "yearJoined": "2008",
+    "bar": "New Jersey, 1981/U.S. District Court District of New Jersey, 1981/U.S. Court of Appeals 3rd Circuit, 1987/U.S. Supreme Court, 1986",
+    "education": [{
+        "school": "Rutgers University School of Law, Newark, New Jersey",
+        "degree": "J.D. - 1981"
+      },
+      {
+        "school": "Rutgers College of Rutgers University",
+        "degree": "B.A. cum laude - 1977 Phi Beta Kappa"
+      },
+      {
+        "school": "Rutgers University Graduate School of Education",
+        "degree": "Certification in Reading - 1977"
+      }
+    ],
+    "memberships": [
+      "New Jersey State Bar Association"
+    ],
+    "past": [
+      "Law Clerk to Judge Florence R. Peskoe, Presiding Judge, Chancery Division, Family",
+      "Part, Superior Court of New Jersey, Monmouth County"
+    ],
+    "bio": [
+      "BETSY ANN ROSENBLOOM is an experienced litigator. Her practice is concentrated in real property title litigation and the representation of secured creditors in the enforcement of their rights. Ms Rosenbloom appears in both state and federal courts. Ms. Rosenbloom has served as an expert witness in litigation involving New Jersey foreclosure practice."
+    ]
+  },
+  {
+    "name": "Burrel Ives Humphreys",
+    "title": "council",
+    "picture": "humphreys.jpg",
+    "areas": [
+      "Litigation",
+      "Arbitration",
+      "Mediation",
+      "Special Master",
+      "Appellate Matters",
+      "Corporate Investigations",
+      "Estates",
+      "Insurance",
+      "Complex Litigation Case Management"
+    ],
+    "email": "bhumphreys@wcmolaw.com",
+    "phone": "973-694-0800",
+    "fax": "973-694-0302",
+    "location": "Wayne, New Jersey",
+    "yearJoined": "2007",
+    "bar": "New Jersey, 1954",
+    "education": [{
+        "school": "Temple University School of Law, Philadelphia, Pennsylvania",
+        "degree": "Law Review: Temple Law Review, Editor-in-Chief"
+      },
+      {
+        "school": "Dickinson College",
+        "degree": "J.D."
+      }
+    ],
+    "memberships": [
+      "Panel of Federal Court Arbitrators and Mediators by designation of the United States District Court for the District of New Jersey, Member",
+      "Panel of Civil Arbitrators for the New Jersey Judicial Arbitration Program, Member",
+      "New Jersey Court Approved Mediator in Civil Cases",
+      "New Jersey Court Approved Mediator for Economic Aspects of Family Law Cases",
+      "Panel of Distinguished Neutral Arbitrators for CPR (International Institute for Conflict Prevention and Resolution), Member",
+      "American Arbitration Association Commercial Panel of Arbitrators and Panel of Mediators, Member",
+      "National Arbitration Forum's Panel of Arbitrators and Mediators, Member",
+      "New Jersey Organized Crime Policy Board, Former Chair",
+      "Creditor-Debtor Section of the New Jersey State Bar Association, Former Chair",
+      "New Jersey Institute for Continuing Legal Education, Former Member, Board of Trustees"
+    ],
+    "past": [
+      "Judge Richard Hartshorne, United States District Court, Law Clerk",
+      "Carpenter, Bennett and Morrissey, Newark, NJ, Associate",
+      "Hoffman & Humphreys, Wayne, NJ, Partner"
+    ],
+    "bio": [
+      "BURRELL IVES HUMPHREYS was a Judge of the New Jersey Superior Court, Appellate Division. He was also Assignment Judge of Hudson County and Essex County, where he was responsible for the operation of all courts in those counties, and Presiding Judge of Chancery in Passaic County.",
+      "He was specially designated by the Chief Justice of the New Jersey Supreme Court as the Affordable Housing Judge (Mt. Laurel) for Passaic County; Environmental Judge for Passaic County; and Wiretap Judge for Hudson and other Counties.",
+      "He was the Chair of a subcommittee of the Supreme Court Alternate Dispute Resolution Committee and Chair and member of numerous other Supreme Court Committees. He is presently a Member of the Supreme Court Judicial Evaluation Commission.",
+      "Judge Humphreys served as a member of the Editorial Board of the New Jersey Law Journal. He served as Co-Chair with Assignment Judge Patricia Costello of the Committee to improve the functioning of the Newark Municipal Court. He is a lecturer and author on legal and judicial subjects, a Fellow of the American Bar Association, a member of Federal, New Jersey and County Bar Associations and a member of the Alternate Dispute Resolution Inn of Court.",
+      "Judge Humphreys was formerly a Deputy Attorney General for the State of New Jersey, the former Prosecutor of Passaic County, a Special Prosecutor appointed by the New Jersey Supreme Court to investigate and prosecute Obstruction of Justice and Contempt of Court cases, and a former Special Counsel for the State of New Jersey to institute escheat actions against major corporations.",
+      "Judge Humphreys has served as Receiver and Trustee and operated large companies by appointment of federal and state judges in bankruptcy and interlocutory proceedings.",
+      "Judge Humphreys was a participant in the World Peace through World Law program sponsored by the American Bar Association; and was a delegate to the 1990 International Conference of Jurists and Lawyers in the former Union of Soviet Socialist Republics sponsored by former United States Secretaries of State.",
+      "Judge Humphreys is the author of an article in the New Jersey Law Journal on mediation in sexual harassment employment cases. Martindale Hubbell AV rated (since 1960)."
+    ]
+  },
+  {
+    "name": "William S. Robertson III",
+    "title": "council",
+    "picture": "robertson.jpg",
+    "areas": [
+      "Tax Planning",
+      "Business Planning",
+      "Business Agreements Among Owners",
+      "Corporate",
+      "Partnerships",
+      "Limited Liability Companies",
+      "Commercial Transactions",
+      "Business Purchases and Sales"
+    ],
+    "email": "brobertson@wcmolaw.com",
+    "phone": "973-694-0800",
+    "fax": "973-694-0302",
+    "location": "Wayne, New Jersey",
+    "yearJoined": "1969",
+    "bar": "New York, 1967/New Jersey, 1970/U.S. Court of Appeals 3d Circuit, 1984/U.S. Supreme Court, 1986/U.S. Tax Court, 1969",
+    "education": [{
+        "school": "Harvard University Law School, Cambridge, Massachusetts",
+        "degree": "LL.B., Bachelor of Law - 1966"
+      },
+      {
+        "school": "Williams College, Williamstown, Massachusetts",
+        "degree": "B.A., Bachelor of Arts Honors (Political Economy Major) magna cum laude - 1962"
+      }
+    ],
+    "past": [
+      "Curtis, Mallet - Prevost, Colt & Mosle, New York, New York, 1966 - 1969 "
+    ],
+    "bio": [
+      "WILLIAM S. ROBERTSON, III, joined Williams, Caliri, Miller & Otley, P.C. in 1969 and became a Shareholder in 1971. His practice includes tax planning, business planning, business agreements among owners, corporate, partnership, limited liability companies, commercial transactions, and business purchases and sales."
+    ]
+  },
+  {
+    "name": "Linda H. Samson",
+    "title": "council",
+    "picture": "samson.jpg",
+    "areas": [
+      "Family and Matrimonial Law"
+    ],
+    "email": "lsamson@wcmolaw.com",
+    "phone": "973-694-0800",
+    "fax": "973-694-0302",
+    "location": "Wayne, New Jersey",
+    "yearJoined": "2005",
+    "bar": "New Jersey, 1983/U.S. District Court District of New Jersey, 1983",
+    "education": [{
+        "school": "Yeshiva University Benjamin N. Cardozo School of Law, New York, New York",
+        "degree": "J.D."
+      },
+      {
+        "school": "Drew University",
+        "degree": "B.A."
+      }
+    ],
+    "memberships": [
+      "Passaic County Bar Association, Past President",
+      "Passaic County Bar Association, Trustee",
+      "Passaic County Bar Association, Matrimonial Section",
+      "Passaic County Bar Association, Juvenile and Domestic Relations Committee Former co-Chair",
+      "Passaic County Bar Association, Complimentary Dispute Resolution Committee Member",
+      "New Jersey State Bar Association, Family Law Section",
+      "Morris County Bar Association, Family Law Section, Member",
+      "American Bar Association, Family Law Section, Member"
+    ],
+    "past": [
+      "Justice Robert Clifford Inn of the Court, Barrister",
+      "Passaic County, Member of the Court's Arbitrator Selection Committee"
+    ],
+    "bio": [
+        "LINDA H. SAMSON, gained wide respect for breaking new ground as the first woman to attain the office of President of The Passaic County Bar Association. She currently serves as a Trustee of the Passaic County Bar Association. Ms. Samson has also been selected to teach family law practice to less-experienced attorneys by the New Jersey Institute for Continuing Legal Education. She is co-chair of the Family Law Section,  a member of the Matrimonial and Complimentary Dispute Resolution Committees and serves on the Women and Minority Concerns Committee of the Passaic County Bar Association. Ms. Samson is also a member of New Jersey State, Morris County, and American Bar Associations and their sections of family law. She volunteers as chair of a Matrimonial Early Settlement Panel in Passaic County.  She is qualified to serve as an Economic Mediator pursuant to New Jersey Court Rule 1:40-12(a)(6). She served as a charter Barrister of the Justice Robert Clifford Inn of the Court, and was a member of the Court's Arbitrator Selection Committee in the Passaic County vicinage. Ms. Samson is past chair of the District XI (Passaic County) Fee Arbitration Committee and served on the District XI (Passaic County) Ethics Committee, both as appointed by the New Jersey Supreme Court.  She was recently appointed to the board of directors of Willing Hands, Inc. a program for developmentally disabled adults. She joined the firm in January of 2005."
+    ]
+  },
+  {
+    "name": "Jeffrey R. Bascelli",
+    "title": "council",
+    "picture": "bascelli.jpg",
+    "areas": [
+      "Elder Law"
+    ],
+    "email": "jbascelli@wcmolaw.com",
+    "phone": "973-694-0880 (Ext. 308)",
+    "fax": "973-694-0302",
+    "location": "Wayne, New Jersey",
+    "yearJoined": "2018",
+    "bar": "New Jersey, 1987",
+    "education": [{
+        "school": "Widener University School of Law, Wilmington, Delaware",
+        "degree": "J.D., Doctor of Jurisprudence - 1986"
+      },
+      {
+        "school": "Ursinus College, Collegeville, Pennsylvania",
+        "degree": "B.A, Bachelor of Arts Degree in Economics and Political Science - 1983"
+      }
+    ],
+    "memberships": [
+      "National Academy of Elder Law Attorneys", "Memorial Sloan Kettering National Trust and Estate Associate",
+      "NJBIZ Top Elder Law Attorney – 2008", "Essex County Bar Association Elder Law Committee - Past Chair",
+      "Passaic County Bar Association Elder Law Committee - Past Chair", "American Bar Association - Young Lawyers Division Elder Law Committee - Past Chair",
+      "American Bar Association 1995 Annual Meeting Program entitled 'Senior Housing Options' - Past Co-Chair",
+      "National Association of Retired Federal Employees – Northern New Jersey Chapter - Former Counsel",
+      "Wayne Adult Community Center - Past Trustee", 
+      "Chilton Memorial Hospital Professional Advisory Board and Senior Advisory Board - Past Trustee"
+    ],
+    "past": [
+      "Bascelli Law Group, Founder"
+    ],
+    "bio": [
+      "Mr. Bascelli joined Williams Caliri Miller & Otley, PC. in 2018. Mr. Bascelli is a certified elder law attorney®.  Mr. Bascelli is one of the original 69 “Charter Members” of the initial CELA class acquiring such designation in February 1995.  Of the 69 original CELA “Charter Members”, 4 are from New Jersey.",
+      "Prior to joining Williams Caliri Miller & Otley, PC, Mr. Bascelli was founder of Bascelli Law Group, Wayne, New Jersey."
+    ]
+  }
+]

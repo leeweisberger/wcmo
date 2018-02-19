@@ -1,0 +1,7 @@
+<div class="collection with-header">
+  <div class="collection-header">
+    <h5 *ngIf="lawyers.length > 1">Lawyers</h5>
+    <h5 *ngIf="lawyers.length === 1">Lawyer</h5>
+  </div>
+  <a *ngFor="let lawyer of lawyers" [routerLink]="['/attorney', lawyer.split(' ')[2] || lawyer.split(' ')[1]]" class="collection-item">{{lawyer}}</a>
+</div>

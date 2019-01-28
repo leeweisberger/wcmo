@@ -1,15 +1,25 @@
 <div *ngIf="carousels">
   <h3 class="grey-text text-lighten-2">Practice Areas</h3>
-  <div *ngIf="carousels" #carousel materialize="carousel" [materializeParams]="[{full_width: true, interval: 200}]" class="carousel carousel-slider wcmo-carousel center"
+  <div *ngIf="carousels" materialize="carousel" [materializeParams]="[{full_width: true, interval: 200}]" class="carousel carousel-slider wcmo-carousel center"
     data-indicators="true">
     <div *ngFor="let carousel of carousels" class="carousel-item">
       <img [src]="constructImageUrl(carousel.image)">
       <div class="caption center-align">
-        <h4 class="hide-on-large-only">{{carousel.title}}</h4>
-        <h3 class="hide-on-med-and-down">{{carousel.title}}</h3>
+        <h4 class="hide-on-large-only">
+          <a [routerLink]="['/areas', carousel.title]" class="white-text">
+            {{carousel.title}}
+          </a>
+        </h4>
+        <h3 class="hide-on-med-and-down">
+          <a [routerLink]="['/areas', carousel.title]" class="white-text">
+            {{carousel.title}}
+          </a>
+        </h3>
       </div>
       <div class="carousel-fixed-item center hide-on-med-and-down">
-        <a [routerLink]="['/areas', carousel.title]" class="waves-effect white btn-large grey-text darken-text-2">Learn More</a>
+        <a [routerLink]="['/areas', carousel.title]" class="waves-effect white btn-large grey-text darken-text-2">
+          Learn More
+        </a>
       </div>
     </div>
   </div>

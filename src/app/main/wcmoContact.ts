@@ -1,8 +1,9 @@
-import {Component} from '@angular/core';
-import {Http, Response} from '@angular/http';
-import {Observable} from 'rxjs/Observable';
+import { Component } from '@angular/core';
+import { Http, Response } from '@angular/http';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
-declare var Materialize:any;
+declare var Materialize: any;
 
 @Component({
   selector: 'wcmoContact',
@@ -31,8 +32,8 @@ export class WcmoContactComponent {
 
   getStates(): Observable<State[]> {
     return this.http
-      .get('assets/states.json')
-      .map(response => response.json());
+      .get('assets/states.json').pipe(
+        map(response => response.json()));
   }
 
   submit() {
@@ -44,14 +45,14 @@ export class WcmoContactComponent {
       return;
     }
 
-    const url = 'https://shrouded-beach-93379.herokuapp.com/sendMailToWcmo'; 
+    const url = 'https://shrouded-beach-93379.herokuapp.com/sendMailToWcmo';
     const body = `Phone: ${this.phone}
 State: ${this.state}
 Zip: ${this.zip}
 Contact by phone: ${this.phone_choice}
 Contact by email: ${this.email_choice}
 Message: ${this.description}`;
-    const postBody = {name: this.name, email: this.email, subject: 'Email from ' + this.name, body}
+    const postBody = { name: this.name, email: this.email, subject: 'Email from ' + this.name, body }
     this.http.post(url, postBody).subscribe((res: Response) => {
       if (res.status === 200) {
         Materialize.toast('Your Email Was Sent', 4000, "green");
@@ -67,6 +68,6 @@ Message: ${this.description}`;
 }
 
 interface State {
-    name: string;
-    abbreviation: string;
+  name: string;
+  abbreviation: string;
 }

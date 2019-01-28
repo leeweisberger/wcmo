@@ -1,6 +1,7 @@
-import { Component, ViewChild, OnInit, Injectable } from "@angular/core"
+import { Component, OnInit, Injectable } from "@angular/core"
 import { Http } from '@angular/http';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { Resolve, ActivatedRouteSnapshot, ActivatedRoute } from '@angular/router';
 import * as $ from 'jquery';
 
@@ -14,8 +15,8 @@ class WcmoCarouselResolver implements Resolve<any> {
 
     getCarousels(): Observable<CarouselItem[]> {
         return this.http
-            .get('assets/carousel.json')
-            .map(response => response.json());
+            .get('assets/carousel.json').pipe(
+                map(response => response.json()));
     }
 }
 
@@ -23,18 +24,19 @@ class WcmoCarouselResolver implements Resolve<any> {
     selector: "wcmoCarousel",
     templateUrl: './wcmoCarousel.html'
 })
-class WcmoCarouselComponent {
+class WcmoCarouselComponent implements OnInit {
 
     carousels: CarouselItem[];
-    @ViewChild('carousel') carouselElement;
-
     constructor(private route: ActivatedRoute) {
 
     }
 
     ngOnInit() {
         this.carousels = this.route.snapshot.data['carousel'];
-        $('.carousel').carousel({full_width: true});
+        $('.carousel').carousel({
+            fullWidth: true,
+            indicators: true
+        });
         this.autoPlay();
     }
 

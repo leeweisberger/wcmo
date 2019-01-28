@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Http } from '@angular/http';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { AngularFirestore } from 'angularfire2/firestore';
 
 @Component({
@@ -57,7 +57,7 @@ export class Attorney {
     public education: AttorneyEducation[],
     public memberships: string[],
     public past: string[],
-    public bio: string[] 
+    public bio: string[]
   ) { }
 }
 

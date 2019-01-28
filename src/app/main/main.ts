@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router'
-import { PageScrollService, PageScrollInstance, PageScrollConfig } from 'ng2-page-scroll';
+import { Router } from '@angular/router'
+import { PageScrollService } from 'ngx-page-scroll-core';
 import { DOCUMENT } from '@angular/platform-browser';
 
 @Component({
@@ -8,20 +8,19 @@ import { DOCUMENT } from '@angular/platform-browser';
   templateUrl: './main.html'
 })
 
-export class MainComponent {
+export class MainComponent implements OnInit {
 
   constructor(private router: Router, private pageScrollService: PageScrollService, @Inject(DOCUMENT) private document: any) {
   }
 
   ngOnInit() {
-    PageScrollConfig.defaultDuration = 700;
-    const subscription = this.router.events.subscribe((event) => {
-      if (event instanceof NavigationEnd && this.router.url === '/contact') {
-        const pageScrollInstance: PageScrollInstance = PageScrollInstance.simpleInstance(this.document, '#contact');
-        setTimeout(() => {this.pageScrollService.start(pageScrollInstance);}, 300);
-        
-      }
-      subscription.unsubscribe();
-    });
+    if (this.router.url === '/contact') {
+      setTimeout(() => {
+        this.pageScrollService.scroll({
+          document: this.document,
+          scrollTarget: '#contact',
+        });
+      });
+    }
   }
 }

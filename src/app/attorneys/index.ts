@@ -4,7 +4,6 @@ import 'angular2-materialize';
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {MaterializeModule} from 'angular2-materialize';
-import {AngularFirestoreModule} from 'angularfire2/firestore';
 import {routing} from '.././routes';
 
 import {WcmoAttorneysComponent} from './wcmoAttorneysComponent';
@@ -16,7 +15,6 @@ import {WcmoAttorneyCardComponent} from './wcmoAttorneyCardComponent';
     CommonModule,
     MaterializeModule,
     routing,
-    AngularFirestoreModule,
   ],
   declarations: [
     WcmoAttorneysComponent,

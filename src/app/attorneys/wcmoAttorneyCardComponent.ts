@@ -9,6 +9,6 @@ export class WcmoAttorneyCardComponent {
   @Input() public attorney: Attorney;
 
   getPicture(): string {
-    return '../../images/' + this.attorney.picture;
+    return `http:${this.attorney.picture}`;
   }
 }

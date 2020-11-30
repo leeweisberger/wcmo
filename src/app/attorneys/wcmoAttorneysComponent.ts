@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Http } from '@angular/http';
 import { Observable } from 'rxjs';
-import { AngularFirestore } from 'angularfire2/firestore';
+
+import {ContentfulService} from '../contentful.service';
 
 @Component({
   selector: 'wcmoAttorneysComponent',
@@ -10,12 +10,12 @@ import { AngularFirestore } from 'angularfire2/firestore';
 export class WcmoAttorneysComponent {
   public types: TypeAttorney[] = [];
 
-  constructor(private db: AngularFirestore) {
-    this.getAttorneys().subscribe((result) => {
+  constructor(private contentfulService: ContentfulService) {
+    this.getAttorneys().then((result) => {
       const members: Attorney[] = [];
       const associates: Attorney[] = [];
       const councils: Attorney[] = [];
-      for (let attorney of result) {
+      for (const attorney of result) {
         if (attorney.title === 'member') {
           members.push(attorney);
         } else if (attorney.title === 'council') {
@@ -36,35 +36,29 @@ export class WcmoAttorneysComponent {
     });
   }
 
-  getAttorneys(): Observable<Attorney[]> {
-    return this.db.collection('attorneys').valueChanges() as Observable<Attorney[]>;
+  getAttorneys(): Promise<Attorney[]> {
+    return this.contentfulService.getLawyers();
   }
 }
 
 export class Attorney {
   constructor(
     public name: string,
-    public areas: string[],
+    public areasOfPractice: string,
     public picture: string,
     public email: string,
     public phone: string,
-    public title: string,
+    public title: 'member' | 'council' | 'associate',
     public fax: string,
     public location: string,
-    public yearJoined: string,
+    public yearJoinedFirm: string,
     public litigation: string,
     public bar: string,
-    public education: AttorneyEducation[],
-    public memberships: string[],
-    public past: string[],
-    public bio: string[]
+    public education: string,
+    public memberships: string,
+    public pastPositions: string,
+    public bio: string,
   ) { }
-}
-
-class AttorneyEducation {
-  constructor(
-    public school: string,
-    public degree: string) { }
 }
 
 class TypeAttorney {

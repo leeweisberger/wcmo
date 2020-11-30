@@ -3,8 +3,7 @@ import 'angular2-materialize';
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AngularFireModule } from 'angularfire2';
-import { environment } from '../environments/environment';
+import { HttpClientModule } from '@angular/common/http';
 
 import { routing, RootComponent } from './routes';
 import { MaterializeModule } from 'angular2-materialize';
@@ -16,6 +15,8 @@ import { MainModule } from './main';
 import { AttorneysModule } from './attorneys';
 import { NoteworthyModule } from './noteworthy';
 import { AreasModule } from './areas';
+
+import { ContentfulService } from './contentful.service';
 
 import { HeaderComponent } from './header';
 import { FooterComponent } from './footer';
@@ -31,7 +32,7 @@ import { FooterComponent } from './footer';
     AttorneysModule,
     NoteworthyModule,
     AreasModule,
-    AngularFireModule.initializeApp(environment.firebase),
+    HttpClientModule,
   ],
   declarations: [
     RootComponent,
@@ -39,6 +40,6 @@ import { FooterComponent } from './footer';
     FooterComponent
   ],
   bootstrap: [RootComponent],
-  providers: [WcmoCarouselResolver],
+  providers: [WcmoCarouselResolver, ContentfulService],
 })
 export class AppModule { }

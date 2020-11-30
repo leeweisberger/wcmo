@@ -2,9 +2,6 @@ import {Component} from '@angular/core';
 import {RouterModule, Routes, Router, NavigationEnd} from '@angular/router';
 import {MainComponent} from './main/main';
 import {WcmoCarouselResolver} from './main/wcmoCarousel'
-import {WcmoContactComponent} from './main/wcmoContact';
-import {HeaderComponent} from './header';
-import {FooterComponent} from './footer';
 import {WcmoAttorneysComponent} from './attorneys/wcmoAttorneysComponent';
 import {WcmoAttorneyComponent} from './attorneys/wcmoAttorneyComponent';
 import {NoteworthyComponent} from './noteworthy/noteworthy';

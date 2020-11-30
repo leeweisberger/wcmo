@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 import { Observable } from 'rxjs';
 import { Attorney } from './wcmoAttorneysComponent';
 import { ActivatedRoute } from '@angular/router';
-import { AngularFirestore } from 'angularfire2/firestore';
+import { ContentfulService } from '../contentful.service';
 
 @Component({
   selector: 'wcmoAttorneyComponent',
@@ -12,12 +12,12 @@ import { AngularFirestore } from 'angularfire2/firestore';
 export class WcmoAttorneyComponent {
   public attorney: Attorney;
 
-  constructor(private db: AngularFirestore, private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute, private contentfulService: ContentfulService ) {
 
   }
 
   ngOnInit() {
-    this.getAttorneys().subscribe((result) => {
+    this.getAttorneys().then((result) => {
       for (const attorney of result) {
         if (attorney.name.split(' ')[2] === this.route.snapshot.params['name'] || attorney.name.split(' ')[1] === this.route.snapshot.params['name']) {
           this.attorney = attorney;
@@ -27,11 +27,11 @@ export class WcmoAttorneyComponent {
     });
   }
 
-  private getAttorneys(): Observable<Attorney[]> {
-    return this.db.collection('attorneys').valueChanges() as Observable<Attorney[]>;
+  getAttorneys(): Promise<Attorney[]> {
+    return this.contentfulService.getLawyers();
   }
 
   getPicture(): string {
-    return '../../images/' + this.attorney.picture;
+    return `http:${this.attorney.picture}`;
   }
 }

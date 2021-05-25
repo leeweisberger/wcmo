@@ -8,31 +8,11 @@ import {ContentfulService} from '../contentful.service';
   templateUrl: './wcmoAttorneysComponent.html'
 })
 export class WcmoAttorneysComponent {
-  public types: TypeAttorney[] = [];
+  public attorneys: Attorney[] = [];
 
   constructor(private contentfulService: ContentfulService) {
-    this.getAttorneys().then((result) => {
-      const members: Attorney[] = [];
-      const associates: Attorney[] = [];
-      const councils: Attorney[] = [];
-      for (const attorney of result) {
-        if (attorney.title === 'member') {
-          members.push(attorney);
-        } else if (attorney.title === 'council') {
-          councils.push(attorney);
-        } else {
-          associates.push(attorney);
-        }
-      }
-      if (members.length) {
-        this.types.push(new TypeAttorney(members, 'Members'));
-      }
-      if (associates.length) {
-        this.types.push(new TypeAttorney(associates, 'Associates'));
-      }
-      if (councils.length) {
-        this.types.push(new TypeAttorney(councils, 'Counsel'));
-      }
+    this.getAttorneys().then((lawyers) => {
+      this.attorneys = lawyers;
     });
   }
 
@@ -58,12 +38,5 @@ export class Attorney {
     public memberships: string,
     public pastPositions: string,
     public bio: string,
-  ) { }
-}
-
-class TypeAttorney {
-  constructor(
-    public attorneys: Attorney[],
-    public title: string,
   ) { }
 }

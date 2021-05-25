@@ -1,18 +1,15 @@
 <div class="container">
   <h2>Our Attorneys</h2>
-  <div *ngFor="let type of types">
-    <h4>{{type.title}}</h4>
-    <div *ngFor="let attorney of type.attorneys; let i = index;">
-      <div class="row" *ngIf="i % 3 === 0">
-        <div class="col l4 s12">
-          <wcmoAttorneyCardComponent [attorney]="attorney"> </wcmoAttorneyCardComponent>
-        </div>
-        <div *ngIf="type.attorneys[i+1]" class="col l4 s12">
-          <wcmoAttorneyCardComponent [attorney]="type.attorneys[i+1]"> </wcmoAttorneyCardComponent>
-        </div>
-        <div *ngIf="type.attorneys[i+2]" class="col l4 s12">
-          <wcmoAttorneyCardComponent [attorney]="type.attorneys[i+2]"> </wcmoAttorneyCardComponent>
-        </div>
+  <div *ngFor="let attorney of attorneys; let i = index;">
+    <div class="row" *ngIf="i % 3 === 0">
+      <div class="col l4 s12">
+        <wcmoAttorneyCardComponent [attorney]="attorney"> </wcmoAttorneyCardComponent>
+      </div>
+      <div *ngIf="attorneys[i+1]" class="col l4 s12">
+        <wcmoAttorneyCardComponent [attorney]="attorneys[i+1]"> </wcmoAttorneyCardComponent>
+      </div>
+      <div *ngIf="attorneys[i+2]" class="col l4 s12">
+        <wcmoAttorneyCardComponent [attorney]="attorneys[i+2]"> </wcmoAttorneyCardComponent>
       </div>
     </div>
   </div>

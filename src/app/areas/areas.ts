@@ -8,7 +8,7 @@ import { DOCUMENT } from '@angular/platform-browser';
 	templateUrl: './areas.html'
 })
 export class AreasComponent implements OnInit {
-	areas = ['Real Estate', 'Business Practice', 'Estate Planning, Wills, & Trusts', 'Litigation', 'Financial Services', 'Tax', 'Family Law', 'Alternate Dispute Resolution'];
+	areas = ['Real Estate', 'Business Practice', 'Estate Planning, Wills, & Trusts', 'Litigation', 'Financial Services', 'Tax', 'Family Law', 'Alternate Dispute Resolution', 'Elder Law'];
 	constructor(private router: Router, private pageScrollService: PageScrollService, @Inject(DOCUMENT) private document: any) {
 	}
 
